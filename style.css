@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1{
+    background: url(./img/Bitmap\ 2.png);
+   background-size: cover;
+   padding-top: 16px;
+   
+
+    
+}
+
+
+.section1-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 128px;
+    padding-bottom: 56px;
+    
+}
+
+.p1{
+    color: #4C545C;
+
+text-align: center;
+font-family: Bai Jamjuree SemiBold;
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.75px;
+}
+
+.p2{
+    color: #9EABB2;
+
+text-align: center;
+font-family: Bai Jamjuree;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+letter-spacing: 0.15px;
+padding-top: 16px;
+}
+
+.rectangle{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 48px;
+    padding-bottom: 150px;
+}
+
+.button1{
+    border-radius: 28px;
+background: #26BBA4;
+box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.50), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+cursor: pointer;
+border: none;
+padding: 13px 36px;
+
+}
+.button2{
+    border-radius: 28px;
+    background: #6174FF;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+    cursor: pointer;
+    border: none;
+    padding: 13px 36px;
+}
+
+.button1 p, .button2 p{
+    color: #FFF;
+
+text-align: center;
+font-family: Bai Jamjuree SemiBold;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 166.667% */
+letter-spacing: 0.5px;
+
+}
+
+.p3{
+    color: #4C545C;
+
+text-align: center;
+font-family: Bai Jamjuree SemiBold;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.587px;
+}
+
+.section2{
+    display: flex;
+    gap: 110px;
+    padding-bottom: 150px;
+    justify-content: center;
+}
+
+.section2-text{
+    padding-top: 68px;
+}
+
+.p4{
+    color: #4C545C;
+
+font-family: Bai Jamjuree SemiBold;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.391px;
+}
+.p5{
+
+    color: #9EABB2;
+font-family: Bai Jamjuree;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+letter-spacing: 0.15px;
+padding-top: 8px;
+}
+
+.boxs{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+.section3{
+    padding-bottom: 80px;
+}
+
+.section4-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+}
+
+.section5{
+    padding-top: 76px;
+    padding-bottom: 160px;
+    align-items: center;
+}
+
+.section5 img{
+    padding-bottom: 44px;
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.section6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
+.section7{
+    padding-top: 160px;
+    /* padding-bottom: 150px; */
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background: #f9faf9;
+    padding-top: 44px;
+    padding-bottom: 50px;
+    gap: 330px;
+    align-items: center;
+    
+}
+
+
+.boxs1{
+    display: flex;
+    gap: 90px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.p{
+    color: #4C545C;
+
+font-family: Bai Jamjuree;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+letter-spacing: 0.135px;
+cursor: pointer;
+}
+
+.p:hover{
+    color: #26BBA4;
+}
+
+.icons{
+    display: flex;
+    gap: 24px;
+}
+
+.icons i{
+    font-size: 25px;
+    color: #4C545C;
+    cursor: pointer;
+}
+
+.icons i:hover{
+    color: #26BBA4;
+}
+
+@media (max-width:375px){
+    .rectangle{
+        display: block;
+    }
+    .p1{
+        font-size: 32px;
+        align-items: center;
+    }
+}
